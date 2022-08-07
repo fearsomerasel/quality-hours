@@ -8,9 +8,27 @@ body{
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 .container{
-    width: 75%;
+    width: 80%;
+    position: relative;
 }
+.home-background{
+    position: absolute;
+    margin-top: -25%;
+    margin-left: 49%;
+    z-index: -11;
+    
+}
+
 /* fonts */
+.bold{
+    font-size: 37px;
+    font-weight: 600;
+    letter-spacing: .3px;
+}
+.p1{
+    font-size: 28px;
+}
+/* font end */
 
 /* button */
 .btn{
@@ -19,17 +37,6 @@ body{
     border-radius: 100px;
     border: none;
     background-image: linear-gradient(to right, #FADD48, #F5C72A);
-}
-
-.home{
-    position: relative;
-}
-.home-background{
-    position: absolute;
-    align-items: right;
-    margin-top: -210px;
-    margin-left: 700px;
-    z-index: -1;
 }
 
 nav{
@@ -114,16 +121,20 @@ nav{
 /* header css */
 
 .home-heading{
-    font-size:20px ;
-    font-weight: bold;
-    margin-top: 20px;
+    font-size:30px ;
+    font-weight: 600;
+    margin-top: 50px;
 }
-.home-heading span{
-    font-size: 30px;
+
+.header-content p{
+    width: 75%;
+
+
 }
 .header-content img{
     width: 17.6px;
     margin-right: 9px;
+    
 }
 /*  */
 
